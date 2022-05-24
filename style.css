@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-primary {
+    padding: 12px 28px;
+    background-color: #138241;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+
+.btn-secondary {
+    padding: 12px 28px;
+    background-color: transparent;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #138241;
+}
+input {
+    padding: 12px 28px;
+    border: none;
+}
+button {
+    border: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+ .pb {
+    padding-bottom: 5rem;
+ }
+ .pt {
+    padding-top: 5rem;
+ }
+ .__pb {
+    padding-bottom: 40px;
+ }
+.section-title {
+    text-align: center;
+}
+
+/******************************Header*************************/
+
+.nav-item {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #042411CC;
+    padding: 12px 36px;
+}
+
+header {
+    height: 6rem;
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    box-shadow: 0px 4px 15px 0px #ABABAB40;
+    position: fixed;
+    z-index: 999;
+}
+
+.__header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+
+.main-nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/******************************hero*************************/
+
+.hero {
+    padding-top: 10rem;
+    background-color: #F6F8FA;
+}
+.__hero-container {
+    display: grid;
+    grid-template-columns: 57% 43%;
+   
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 32px;
+}
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+
+}
+
+.left-side p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #04241199;
+
+
+}
+
+form {
+    border: 1px solid #138241;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 5px;
+    background-color: #fff;
+}
+form input#email {
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: #fff;
+    
+}
+form input#email:active {
+    background-color: #fff;
+}
+
+.right-side {
+    
+    background-image: url(images/Vector.png);
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+    
+}
+.right-side img {
+    padding-left: 100px;
+    height: 450px;
+}
+
+/******************************Aim*************************/
+.aim {
+    
+    background-color: #D4E6DE;
+}
+
+.__aim-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+.aim p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+/******************************token*************************/
+.token {
+    
+    background-color: #F6F8FA;
+}
+
+.__token-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+.token p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+
+/******************************services*************************/
+
+.services {
+    background-color: #F6F8FA;
+}
+.title {
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.service h3 {
+    padding: 1rem 0;
+}
+
+
+
+article {
+    border: 2px solid #13824180;
+    border-radius: 6px;
+    padding: 2rem 2rem 1rem;
+    line-height: 1.6;
+    background-color: #F6F8FA;
+}
+article p {
+    padding: 0 0 1rem 0;
+    color:rgba(4, 36, 17, 0.8);
+}
+article a {
+    color: #F7941D;
+
+}
+
+.social img {
+    background-color: #138241;
+    padding: .7rem;
+    border-radius: 4px;
+}
+.utility-form img {
+    background-color: #138241;
+    padding: .7rem;
+    border-radius: 4px;
+}
+.investment img {
+    background-color: white;
+    padding: .7rem;
+    border-radius: 4px;
+}
+.investment {
+    background-color: #138241;
+
+}
+.investment p {
+    color: #C5EDCE;
+
+}
+
+.investment h3 {
+    color: white;
+}
+.investment a {
+    color: #C5EDCE;
+
+}
+/******************************introduce*************************/
+
+.introduce {
+    background-color: #F6F8FA;
+}
+.introduce .title {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.introduce .service {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+.introduce .service h3 {
+    padding: 1rem 0;
+}
+
+
+
+.introduce article {
+    border: 2px solid #C4C4C4;
+    border-radius: 6px;
+    padding: 2rem 2rem 1rem;
+    line-height: 1.6;
+    background-color: #F6F8FA;
+    height: fit-content;
+}
+.introduce article p {
+    padding: 0 0 1rem 0;
+    color:rgba(4, 36, 17, 0.8);
+}
+.introduce article a {
+    color: #F7941D;
+
+}
+
+.introduce .social img {
+    background-color: #138241;
+    padding: .7rem;
+    border-radius: 4px;
+}
+.introduce .utility-form img {
+    background-color: #138241;
+    padding: .7rem;
+    border-radius: 4px;
+}
+.introduce .investment img {
+    background-color: white;
+    padding: .7rem;
+    border-radius: 4px;
+}
+.introduce .investment {
+    background-color: #138241;
+
+}
+.introduce .investment p {
+    color: #C5EDCE;
+
+}
+
+.introduce .investment h3 {
+    color: white;
+}
+.introduce .investment a {
+    color: #C5EDCE;
+
+}
+
+/******************************mission*************************/
+.mission {
+    font-size: 20px;
+    background-color: #D4E6DE;
+}
+
+/******************************FAQS*************************/
+.faqs {
+    background-color: #F6F8FA;
+}
+.__faqs-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+}
+
+.__faqs-container .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.__faqs-container .left p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+/******************************Features*************************/
+
+.__feature-container .row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+
+}
+.__feature-container .row .feature1 {
+    text-align: center;
+}
+.__feature-container .row .feature2 {
+    text-align: center;
+}
+.__feature-container .row .feature1 img {
+    background-image: url(images/shape\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 4rem;
+
+}
+.__feature-container .row .feature2 img {
+    background-image: url(images/shape\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 4rem;
+}
+.__feature-container .row2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+
+}
+.__feature-container .row2 .feature1 {
+    text-align: center;
+}
+.__feature-container .row2 .feature2 {
+    text-align: center;
+}
+.__feature-container .row2 .feature1 img {
+    background-image: url(images/shape\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 4rem;
+
+}
+.__feature-container .row2 .feature2 img {
+    background-image: url(images/shape\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 4rem;
+
+}
+/******************************roadmap*************************/
+
+.top,.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+    gap: 70px;
+    margin: auto;
+}
+.phase {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    line-height: 1.8;
+    background-color: #13824133;
+    padding: 40px 30px;
+    border-radius: 24px;
+    
+}
+
+.phase img {
+    width: 125px;
+    
+}
+
+
+/******************************Footer*************************/
+footer {
+    background-color: #138241;
+}
+
+.__footer-container form {
+    border: 1px solid #138241;
+    background-color: #fff;
+    border-radius: 0;
+    width: 65vw;
+    margin: 40px auto;
+}
+.__footer-container form input#email {
+    line-height: 1.6;
+    padding-left: 80px;
+    width: 52vw;
+    font-size: 16px;
+    background-color: #fff;
+    
+}
+.__footer-container form input#email:active {
+    background-color: #fff;
+}
+.btn {
+    padding: 12px 40px;
+    background-color: #138241;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+.__footer-container form input {
+    padding: 12px 28px;
+    border: none;
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 70vw;
+    margin: 0 auto 15px;
+}
+.footer-nav.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 70vw;
+    margin: 0 auto 15px;
+}
+.footer-nav a {
+    display: block;
+    line-height: 1.6;
+    color: #FFFFFFCC;
+
+}
+.footer-nav h3 {
+    color: white;
+    padding-bottom: 7px;
+}
+.__pt {
+    padding-top: 15px;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}

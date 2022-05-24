@@ -434,6 +434,10 @@ article a {
 }
 
 /******************************contract*************************/
+
+.contract {
+    background-color: #F6F8FA;
+}
 .contract-details {
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -451,9 +455,39 @@ article a {
     padding-left: 50px;
 }
 
+/******************************tokenomics*************************/
+.tokenomics {
+    background-color: #F6F8FA;
+}
+.tokenomics-grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: space-between;
+    align-items: flex-start;
+    line-height: 1.8;
+}
+.tokenomics-grid ul {
+    display: flex;
+    gap: 40px;
+    width: fit-content;
+    padding: 10px;
+    
+}
+.tokenomics-grid ul li {
+    list-style-type: square;
+}
+.tokenomics-grid p {
+    color: #00000099;
+}
+.tokenomics-right {
+    text-align: center;
+}
 
 
 /******************************roadmap*************************/
+.roadmap {
+    background-color: #F6F8FA;
+}
 
 .top,.bottom {
     display: flex;
@@ -470,7 +504,7 @@ article a {
     gap: 50px;
     line-height: 1.8;
     background-color: #13824133;
-    padding: 40px 30px;
+    padding: 40px 30px 40px 50px;
     border-radius: 24px;
     
 }
@@ -478,6 +512,9 @@ article a {
 .phase img {
     width: 125px;
     
+}
+.phase li {
+    list-style-type: square;
 }
 
 

@@ -453,6 +453,10 @@ article a {
     border-radius: 24px;
     
 }
+.phase li {
+    list-style-type: square;
+    
+}
 
 .phase img {
     width: 125px;

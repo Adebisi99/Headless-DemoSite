@@ -492,7 +492,7 @@ article a {
 .top,.bottom {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
     width: fit-content;
     gap: 70px;
     margin: auto;
@@ -506,6 +506,10 @@ article a {
     background-color: #13824133;
     padding: 40px 30px 40px 50px;
     border-radius: 24px;
+    
+}
+.phase li {
+    list-style-type: square;
     
 }
 

@@ -432,6 +432,27 @@ article a {
     padding: 4rem;
 
 }
+
+/******************************contract*************************/
+.contract-details {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: flex-end; 
+    line-height: 1.8;
+    border-bottom: 1px solid #DBDBDB;
+    padding-top: 10px;
+}
+
+.contract-details h3 {
+    border-bottom: 3px solid #138241;
+    width: 80%;
+}
+.contract-details p {
+    padding-left: 50px;
+}
+
+
+
 /******************************roadmap*************************/
 
 .top,.bottom {

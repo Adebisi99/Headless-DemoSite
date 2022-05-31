@@ -38,7 +38,7 @@ button {
     border: none;
 }
 .container {
-    width: 80%;
+    width: 80vw;
     margin: auto;
 }
 
@@ -132,20 +132,20 @@ h1 {
 
 }
 
-form {
+.hero form {
     border: 1px solid #138241;
     border-radius: 8px;
     width: fit-content;
     padding: 5px;
     background-color: #fff;
 }
-form input#email {
+.hero form input#email {
     line-height: 1.6;
     font-size: 16px;
     background-color: #fff;
     
 }
-form input#email:active {
+.hero form input#email:active {
     background-color: #fff;
 }
 
@@ -454,6 +454,11 @@ article a {
 .contract-details p {
     padding-left: 50px;
 }
+.contract button {
+    border: none;
+    background-color: rgba(101, 236, 101, 0.8);
+    padding: 5px;
+}
 
 /******************************tokenomics*************************/
 .tokenomics {
@@ -463,25 +468,84 @@ article a {
     display: grid;
     grid-template-columns: 70% 30%;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     line-height: 1.8;
 }
 .tokenomics-grid ul {
     display: flex;
-    gap: 40px;
+    gap: 10px;
     width: fit-content;
-    padding: 10px;
+    padding: 7px;
+    align-items: flex-end;
     
 }
 .tokenomics-grid ul li {
     list-style-type: square;
 }
-.tokenomics-grid p {
-    color: #00000099;
-}
+
 .tokenomics-right {
     text-align: center;
 }
+
+
+/******************************pre-sale*************************/
+.banner {
+    background-color: orange;
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.banner .btn-primary {
+    padding: 12px 28px;
+    background-color: white;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: orange;
+}
+.price div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: baseline;
+    padding: 5px 0;
+    
+}
+
+
+/******************************roadmap*************************/
+
+.airdrop {
+    background-color: #138241;
+    
+}
+
+#airdrop-form {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#airdrop-form #pesa-address {
+    border: 1px transparent white;
+    border-radius: 20px 0 0 20px;
+    margin-right: 5px;
+    padding-right: 20rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+#airdrop-form #air-btn {
+    border-radius: 0 20px 20px 0;
+    padding: 1rem 1rem;
+    background-color: #0a4924;
+    color: rgb(230, 227, 227);
+}
+
 
 
 /******************************roadmap*************************/
@@ -508,9 +572,10 @@ article a {
     border-radius: 24px;
     
 }
-.phase li {
-    list-style-type: square;
-    
+
+
+.phase li span {
+    color: black;
 }
 
 .phase img {
@@ -520,6 +585,33 @@ article a {
 .phase li {
     list-style-type: square;
 }
+.phase1 h3 {
+    color: #138241;
+}
+.phase1 li {
+    color: #138241;
+}
+.phase2 h3 {
+    color: #2872D3;
+}
+.phase2 li {
+    color: #2872D3;
+}
+.phase3 h3 {
+    color: #F4726D;
+}
+.phase3 li {
+    color: #F4726D;
+}
+.phase4 h3 {
+    color: #5739A4;
+}
+.phase4 li {
+    color: #5739A4;
+}
+.phase .left {
+    text-align: left;
+}
 
 
 /******************************Footer*************************/
@@ -527,11 +619,13 @@ footer {
     background-color: #138241;
 }
 
+
 .__footer-container form {
     border: 1px solid #138241;
     background-color: #fff;
     border-radius: 0;
     width: 65vw;
+    padding: 5px;
     margin: 40px auto;
 }
 .__footer-container form input#email {
@@ -554,6 +648,7 @@ footer {
     line-height: 28px;
     color: white;
 }
+.__footer-container 
 .__footer-container form input {
     padding: 12px 28px;
     border: none;
@@ -596,4 +691,22 @@ footer {
     align-items: center;
     gap: 10px;
     color: white;
+}
+
+
+/*******************************media Query*****************/
+
+@media (max-width:540px) {
+    /******************************introduce*************************/
+
+    .introduce .service {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .contract-details {
+        line-height: normal;
+    }
 }
